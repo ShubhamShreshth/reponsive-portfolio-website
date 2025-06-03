@@ -328,6 +328,7 @@ body.dark-theme{
 
 .home__perfil img{
   width: 150px;
+  height: 300px;
 }
 
 .home__shape-wawes,
@@ -1145,6 +1146,7 @@ body.dark-theme{
 
   .home__perfil img{
     width: 300px;
+    height: 300px;
   }
 
   .home__shape-wawes{
