@@ -1318,13 +1318,15 @@ body.dark-theme{
 
 @media screen and (max-width: 768px) {
   .home__blob {
-    height: 580px;
-    width: 400px;
+    height: 450px;
+    width: 380px;
+    border-radius: 12.5rem;
   }
   
   .home__perfil {
-    width: 340px;
-    height: 520px;
+    height: 420px;
+    width: 350px;
+    border-radius: 10.6rem;
   }
   
   .home__perfil img {
