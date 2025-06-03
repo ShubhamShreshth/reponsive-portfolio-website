@@ -1318,22 +1318,25 @@ body.dark-theme{
 
 @media screen and (max-width: 768px) {
   .home__blob {
-    height: 450px;
-    width: 380px;
+    height: 500px;
+    width: 300px;
     border-radius: 12.5rem;
+    justify-content: center;
   }
   
   .home__perfil {
-    height: 420px;
-    width: 350px;
+    height: 480px;
+    width: 270px;
     border-radius: 10.6rem;
+    justify-content: center;
   }
   
   .home__perfil img {
       width: 100% !important;
       height: 100% !important;
-      /* object-fit: cover; */
+      object-fit: cover;
       border-radius: 50%;
+      justify-content: center;
   }
   
 }
