@@ -657,30 +657,6 @@
                                 Send <i class="ri-arrow-right-up-line"></i>
                             </button>
                         </form>
-
-                        <!--======================== EMAIL JS Section ==============================-->
-
-                        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-                        <script>
-                        (function () {
-                            emailjs.init("yZuXvxoZTZXUCSMKn_K33");
-                        })();
-
-                        document.getElementById("contact-form").addEventListener("submit", function (e) {
-                            e.preventDefault();
-
-                            emailjs.sendForm("service_npxz2ao", "template_vaolr7w", this)
-                            .then(() => {
-                                document.getElementById("contact-message").innerText = "✅ Message sent successfully!";
-                                document.getElementById("contact-message").style.color = "green";
-                                this.reset();
-                            }, (error) => {
-                                document.getElementById("contact-message").innerText = "❌ Failed to send message. Please try again.";
-                                document.getElementById("contact-message").style.color = "red";
-                                console.error("EmailJS Error:", error);
-                            });
-                        });
-                        </script>
                     </div>
                 </div>
             </section>
