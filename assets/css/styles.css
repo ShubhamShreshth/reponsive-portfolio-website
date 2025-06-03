@@ -1329,17 +1329,12 @@ body.dark-theme{
   }
   
   .home__perfil img {
-      width: 100% !important;
-      height: 100% !important;
+      width: 50% !important;
+      height: 50% !important;
       object-fit: cover;
       border-radius: 50%;
   }
   
-  /* .home__shape-wawes,
-  .home__shape-circle {
-      width: 250px !important;
-      height: 250px !important;
-  } */
 }
 
 @media screen and (max-width: 480px) {
@@ -1353,11 +1348,6 @@ body.dark-theme{
       height: 180px !important;
   }
   
-  /* .home__shape-wawes,
-  .home__shape-circle {
-      width: 220px !important;
-      height: 220px !important;
-  } */
 }
 
 @media screen and (max-width: 360px) {
@@ -1371,9 +1361,4 @@ body.dark-theme{
       height: 160px !important;
   }
   
-  /* .home__shape-wawes,
-  .home__shape-circle {
-      width: 200px !important;
-      height: 200px !important;
-  } */
 }
