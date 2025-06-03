@@ -1329,9 +1329,9 @@ body.dark-theme{
   }
   
   .home__perfil img {
-      width: 50% !important;
-      height: 50% !important;
-      object-fit: cover;
+      width: 100% !important;
+      height: 100% !important;
+      /* object-fit: cover; */
       border-radius: 50%;
   }
   
