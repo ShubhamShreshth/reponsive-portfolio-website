@@ -1318,7 +1318,7 @@ body.dark-theme{
 
 @media screen and (max-width: 768px) {
   .home__blob {
-    height: 450px;
+    height: 580px;
     width: 400px;
   }
   
