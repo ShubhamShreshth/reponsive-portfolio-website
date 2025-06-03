@@ -319,14 +319,14 @@ body.dark-theme{
   width: 170px;
   height: 260px;
   background: linear-gradient(to bottom, #e6e9f0 0%, #eef1f5 100%);
-  /* border-radius: 5.5rem; */
+  border-radius: 5.5rem;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  /* align-items: flex-end; */
+  align-items: flex-end;
   position: relative;
-  border-radius: 50%;
-  align-items: center;
+  /* border-radius: 50%;
+  align-items: center; */
 }
 
 .home__perfil img{
