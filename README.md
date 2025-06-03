@@ -14,4 +14,4 @@ General steps to follow to build a simple website :
 
 5. Redesign each part as per requirement!
 
-Deployed website : 
+Deployed website : https://shubhamshreshth.netlify.app
