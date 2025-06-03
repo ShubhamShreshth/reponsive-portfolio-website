@@ -1338,9 +1338,9 @@ body.dark-theme{
   
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .home__blob {
-      width: 220px !important;
+      width: 350px !important;
       height: 220px !important;
   }
   
@@ -1362,4 +1362,4 @@ body.dark-theme{
       height: 160px !important;
   }
   
-}
+} */
